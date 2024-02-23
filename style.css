@@ -1,0 +1,53 @@
+.delete-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: #f44336; /* Red */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.delete-btn:hover {
+    background-color: #d32f2f; /* Darker Red */
+    cursor: pointer;
+}
+.add-task-button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    display: inline-block; /* Allows setting dimensions */
+    border: none; /* Removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    padding: 10px 20px; /* Controls height and width */
+    border-radius: 8px; /* Rounds the edges */
+}
+.add-task-button:hover {
+    background-color: #005dc1;
+}
+.input-task-name {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    font-size: 16px;
+    margin: 0;
+}
+
+li {
+    font-family: sans-serif;
+}
+
+h2 {
+    font-family: sans-serif;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
