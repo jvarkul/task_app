@@ -1,3 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+
+}
+
+.new-task-form{
+    display: flex;
+    margin: 20px;
+}
+
+.add-task-button {
+    display: flex;
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    border: none; /* Removes border */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    border-radius: 8px; /* Rounds the edges */
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.add-task-button:hover {
+    background-color: #005dc1;
+}
+.input-task-name {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+}
+
+.task-list{
+    background-color: #515151;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.task-row{
+    display: flex;
+    background-color: #c8c8c8;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
 .delete-btn {
     display: inline-block;
     padding: 5px 10px;
@@ -7,32 +60,11 @@
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
+    
 }
 .delete-btn:hover {
     background-color: #d32f2f; /* Darker Red */
     cursor: pointer;
-}
-.add-task-button {
-    background-color: #007bff; /* Button color */
-    color: white; /* Text color */
-    text-decoration: none; /* Removes underline from links */
-    display: inline-block; /* Allows setting dimensions */
-    border: none; /* Removes border */
-    cursor: pointer; /* Changes cursor to pointer on hover */
-    padding: 10px 20px; /* Controls height and width */
-    border-radius: 8px; /* Rounds the edges */
-}
-.add-task-button:hover {
-    background-color: #005dc1;
-}
-.input-task-name {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 50%;
-    font-size: 16px;
-    margin: 0;
 }
 
 li {
@@ -41,6 +73,7 @@ li {
 
 h2 {
     font-family: sans-serif;
+    text-align: center;
 }
 
 p {
@@ -51,3 +84,4 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+

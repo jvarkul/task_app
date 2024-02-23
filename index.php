@@ -26,17 +26,17 @@ $result = $conn->query($sql);
 
 <h2>Task List</h2>
 
-<form method="POST" action="">
+<form class='new-task-form' method="POST" action="">
     <input class='input-task-name' type="text" name="task_name" placeholder="Add new task">
     <button class='add-task-button' type="submit">Add Task</button>
 </form>
 
-<ul>
+<ul class='task-list'>
 <?php
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<li>" . $row["task_name"] . " <a href='delete.php?id=" . $row["id"] . "'class='delete-btn'>Delete</a></li>";
+        echo "<div class='task-row'><li>" . $row["task_name"] . " <a href='delete.php?id=" . $row["id"] . "'class='delete-btn'>Delete</a></li></div>";
     }
 } else {
     echo "<p>0 results</p>";
