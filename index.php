@@ -36,7 +36,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // output data of each row
     while($row = $result->fetch_assoc()) {
-        echo "<div class='task-row'><li>" . $row["task_name"] . " <a href='delete.php?id=" . $row["id"] . "'class='delete-btn'>Delete</a></li></div>";
+        echo "<li class='task-row'><span class='task-name'>" . $row["task_name"] . "</span><a href='delete.php?id=" . $row["id"] . "' class='delete-btn'>Delete</a></li>";
     }
 } else {
     echo "<p>0 results</p>";

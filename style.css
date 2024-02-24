@@ -11,6 +11,16 @@ body {
     margin: 20px;
 }
 
+
+.input-task-name {
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+}
+
 .add-task-button {
     display: flex;
     background-color: #007bff; /* Button color */
@@ -26,24 +36,17 @@ body {
 .add-task-button:hover {
     background-color: #005dc1;
 }
-.input-task-name {
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    font-size: 16px;
-}
 
 .task-list{
-    background-color: #515151;
+    background-color: #969696;
     padding: 8px;
     border-radius: 8px;
 }
 
 .task-row{
     display: flex;
-    background-color: #c8c8c8;
+    align-items: center;
+    background-color: #e4e4e4;
     border-radius: 8px;
     margin: 10px 0;
     padding-left: 10px;
@@ -51,16 +54,25 @@ body {
     
 }
 
+.task-name {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
 .delete-btn {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
     padding: 5px 10px;
     margin: 5px;
-    background-color: #f44336; /* Red */
+    background-color: #f44336;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     font-size: 14px;
-    
 }
 .delete-btn:hover {
     background-color: #d32f2f; /* Darker Red */
