@@ -8,7 +8,7 @@ body {
 
 .new-task-form{
     display: flex;
-    margin: 20px;
+    margin: 10px;
 }
 
 
@@ -39,8 +39,9 @@ body {
 
 .task-list{
     background-color: #969696;
-    padding: 8px;
+    padding: 1px 10px;
     border-radius: 8px;
+    margin: 0px 10px;
 }
 
 .task-row{
@@ -48,7 +49,7 @@ body {
     align-items: center;
     background-color: #e4e4e4;
     border-radius: 8px;
-    margin: 10px 0;
+    margin: 10px 0px;
     padding-left: 10px;
     padding-right: 10px;
     
